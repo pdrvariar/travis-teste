@@ -8,6 +8,7 @@ public class TravisTesteApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(TravisTesteApplication.class, args);
+		System.err.println("Teste com Travis");
 	}
 
 }
